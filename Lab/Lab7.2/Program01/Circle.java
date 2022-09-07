@@ -1,0 +1,39 @@
+package Program01;
+
+public class Circle extends GeometricObject{
+    private double radius;
+
+    Circle(){
+
+    }
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public Circle(String color, boolean filled, double radius) {
+        super(color, filled);
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+    @Override
+    public double getArea(){
+        return Math.PI*(radius*radius);
+    }
+    @Override
+    public double getPerimeter() {
+        return 2*Math.PI*radius;
+    }
+    public double getDiameter(){
+        return 2*radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle\n" + "Area : " + getArea() + "\n" + "Perimeter : " + getPerimeter() + "\n"+ "Diameter : " + getDiameter() + "\n";
+    }
+    
+}

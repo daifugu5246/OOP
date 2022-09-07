@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "Lab7.1"
+    },
+    {
+      "path": "Lab7.2"
+    },
+    {
+      "path": "Lab8"
+    },
+    {
+      "path": "Lab9"
+    },
+    {
+      "path": "Lab10"
+    },
+    {
+      "path": "..\\Final"
+    },
+    {
+      "path": "..\\Object"
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["Firstname", "Lastname", "SEMIPERIMETER"]
+  }
+}
